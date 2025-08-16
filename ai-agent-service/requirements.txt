@@ -1,0 +1,17 @@
+kafka-python
+langchain
+langgraph
+pandas
+scikit-learn
+networkx
+python-louvain
+qdrant-client
+openai
+numpy
+scipy
+pydantic
+langchain-openai
+langchain-google-genai
+langchain-anthropic
+transformers
+torch
