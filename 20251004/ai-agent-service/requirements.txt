@@ -1,0 +1,18 @@
+kafka-python
+langchain
+langgraph
+pandas
+scikit-learn
+networkx
+python-louvain
+qdrant-client
+openai
+numpy
+scipy
+pydantic
+langchain-openai
+langchain-google-genai
+langchain-anthropic
+transformers
+# torch # PyTorch는 공식 홈페이지(https://pytorch.org/get-started/locally/)에서 별도 설치를 권장합니다.
+python-dotenv # .env 파일로 API 키를 관리하기 위해 추가
