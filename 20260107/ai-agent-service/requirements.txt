@@ -1,0 +1,39 @@
+# --- Core AI Agent Framework ---
+langchain>=0.3.14
+langchain-core>=0.3.81
+langchain-community>=0.3.14
+langgraph>=1.0.2
+langgraph-prebuilt>=1.0.5
+langsmith>=0.3.0
+
+# --- LLM Providers ---
+langchain-openai>=0.3.0
+langchain-google-genai>=2.1.0
+langchain-anthropic>=0.3.0
+
+# --- Data Processing & ML ---
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+transformers>=4.40.0
+torch>=2.0.0  # Tokenizer 및 Local 모델 지원용
+
+# --- Graph & Network Analysis ---
+networkx>=3.0
+python-louvain>=0.16
+
+# --- NLP (Korean) ---
+konlpy>=0.6.0
+
+# --- Infrastructure & Utilities ---
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+qdrant-client>=1.10.0
+portalocker<4.0,>=2.7.0
+protobuf<4.0.0,>=3.20.0  # TensorFlow 및 구버전 라이브러리 호환용
+packaging>=24.2
+
+# --- Visualization ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
