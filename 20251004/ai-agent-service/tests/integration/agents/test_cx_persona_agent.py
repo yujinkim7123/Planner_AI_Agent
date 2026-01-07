@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 from agents.experts.Creater.creator_agent import run_creator_agent
 from agents.common.graph_state import AgentState
 
-
 load_dotenv()
 
 RUN_UNIT_TESTS = os.getenv("RUN_INTEGRATION_TESTS", "false").lower() == "true"
@@ -34,7 +33,6 @@ class TestPersonaCreationUnit(unittest.TestCase):
                 ]
             },
             "analysis_options": None,
-            # 💡 핵심: 실제 CX Analyst Agent의 출력 형식을 모방한 Mock 데이터
             "cx_insights": {
                 "clustering": {
                     "method": "kmeans",
